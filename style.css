@@ -1,0 +1,7 @@
+:root { color-scheme: light dark; --bg: #fcfcfb; --ink: #0b0b0b; --ink2: #52514e; --line: #e1e0d9; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1a1a19; --ink: #f0efec; --ink2: #c3c2b7; --line: #2c2c2a; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+h1 { font-size: 28px; margin: 0 0 8px; } h2 { font-size: 19px; margin-top: 32px; }
+p, li { color: var(--ink2); } a { color: inherit; }
+nav { display: flex; gap: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--line); margin-bottom: 32px; font-size: 14px; }
